@@ -13,11 +13,11 @@
   },
   "keywords": [
     "webpack",
-	"react",
-	"sass",
-	"config",
+    "react",
+    "sass",
+    "config",
     "template",
-	"boileplate"
+    "boileplate"
   ],
   "author": "chunaixxx",
   "license": "ISC",
@@ -38,7 +38,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "file-loader": "^6.2.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "url-loader": "^4.1.1"
   }
 }
