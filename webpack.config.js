@@ -13,6 +13,7 @@ module.exports = {
 	output: {
 		path: path.join(__dirname, 'dist'),
 		filename: '[name].[contenthash].js',
+		publicPath: '/'
 	},
 
 	devServer: {
